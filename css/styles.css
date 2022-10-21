@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html {
+ box-sizing: border-box;
+}
+
+*, *:after, *:before {
+ box-sizing: inherit;
+ margin:0;
+ padding:0;
+}
+
+body {
+ background-color: #eee;
+ font-family: 'Rubik', sans-serif;
+}
+
+section.contenido-inicio {
+	display: grid;
+	place-items: center;
+}
+
+div.ingresar-alumno {
+	margin: 20px;
+}
+
+div.ingresar-alumno a {
+	color: #eee;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+} 
+
+div.ingresar-alumno-interno {
+	background-color: blue;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+div.mostrar-alumno {
+	margin: 20px;
+}
+
+div.mostrar-alumno a {
+	color: #eee;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+} 
+
+div.mostrar-alumno-interno {
+	background-color: green;
+	padding: 60px;
+	border-radius: 10px;
+}
+
+
+section.recopilar-info {
+	width: 80%;
+	margin: 0px auto;
+}
+
+h1.texto_presentacion {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.espacio-input {
+	margin: 10px 0px;
+	width: 20%;
+	float: left;
+}
+
+div.espacio-input input {
+	width: 90%;
+}
+
+label {
+	display: block;
+	font-size: 0.8em;
+}
+
+section.informacion-alumno {
+	display: flow-root;
+	margin: 30px auto;
+}
+
+
+section.informacion-encargado {
+	display: flow-root;
+	margin: 30px auto;
+}
+
+section.informacion-preferencia {
+	display: flow-root;
+	margin: 30px auto;
+}
+
+div.radio-stilos {
+	display: inline-flex;
+}
+
+section.envio-datos {
+	text-align: right;
+}
+
+section.envio-datos input{
+	padding: 10px 20px;
+	border: none;
+	background-color: green;
+	color: #eee;
+	border-radius: 5px;
+}
+
+div.contenido-alumno {
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+}
+
+table.informacion-alumno {
+	margin: 20px auto;
+	width: 90%;
+}
+
+img.modelo-img {
+	width: 50%;
+}
+
+div.botton-atras {
+	text-align: center;
+	margin: 20px auto;
+}
+
+div.botton-atras a{
+	text-decoration: none;
+	padding: 10px 5px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+a.informacion-boton {
+	text-decoration: none;
+	color: black;
+}
+section.alumno-img {
+	margin: 20px auto;
+	text-align: center;
+}
+section.alumno-img img {
+	width: 20%;
+}
+
+div.botton-imprimir {
+	text-align: center;
+	margin: 60px auto;
+}
+
+div.botton-imprimir a{
+	text-decoration: none;
+	padding: 10px 5px;
+	background-color: #006600;
+	color: #eee;
+	border: 1px solid #006600;
+	border-radius: 5px;
+}
